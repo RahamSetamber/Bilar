@@ -48,9 +48,5 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.namn{
-  display: flex;
-  align-items: flex-start;
+  margin-top: -55px;
 }
