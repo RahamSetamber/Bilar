@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesA.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>jag vill dö</h1>
+    <div class="container"></div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="About.html">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+  
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Meny</span>
+          
+    <script>
+      function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+          
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+    <div class="fretag">
+        <h1>FRETAG</h1>
+    </div>
+
+    <div class="rubrik">
+        <h1>Lär känna oss</h1>
+    </div>
+
+    <div class="text">
+        <p style="text-align:center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis viverra nulla sed condimentum. In ac dolor urna. Donec aliquam nunc nec nunc convallis finibus. Nunc tempus faucibus aliquam.</p>
+    </div>
+
+    <div class="aboutUsBild">
+        <img src="images/svart bil.jpeg" alt="svart bil" width="95%" height="700">
+    </div>
+
+    <div class="container">
+        <p>Utveckling</p>
+        <p>Utveckling</p>
+        <p>Utveckling</p>   
+    </div>
+
+    <div class="container2">
+        <p style="text-align:center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nullam sit amet pulvinar nunc.</p>
+        <p style="text-align:center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nullam sit amet pulvinar nunc.</p>
+          <p style="text-align:center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nullam sit amet pulvinar nunc.</p>
+    </div>
+
 </body>
 </html>

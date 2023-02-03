@@ -37,21 +37,40 @@
     .sidenav a {font-size: 18px;}
   }
 
-body{
-  background-image: url("images/start\ bil.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  .fretag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+  }
+  
+  .rubrik{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; 
   }
 
-.fretag{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: -55px;
-}
+  .aboutUsBild{
+    display: flex;
+    justify-content: center;
+  }
 
-.rubrik{
-  display: flex;
-  justify-content: center;
-}
+  .text{
+    font-size: 20px;
+  }
+
+  .container{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 370px;
+    margin-top: 50px;
+  }
+
+  .container2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+    margin-top: 20px; 
+  }
