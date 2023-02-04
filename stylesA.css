@@ -41,7 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 55px;
+    margin-top: -55px;
   }
   
   .rubrik{
@@ -59,18 +59,25 @@
     font-size: 20px;
   }
 
-  .container{
-    font-size: 20px;
+
+  .test{
     display: flex;
-    justify-content: center;
-    gap: 370px;
-    margin-top: 50px;
+    gap: 187px;
+    
   }
 
-  .container2{
-    font-size: 20px;
+  .rektanglar {
     display: flex;
     justify-content: center;
-    gap: 190px;
-    margin-top: 20px; 
+    gap: 187px;
+    margin-top: 60px;
   }
+
+  .rectangle {
+    background-color: lightgrey;
+    width: 200px;
+    padding: 35px;
+
+  }
+
+  
