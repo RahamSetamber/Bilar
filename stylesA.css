@@ -41,22 +41,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -55px;
+    margin-top: -8vh;
   }
   
   .rubrik{
     display: flex;
     justify-content: center;
-    margin-top: 40px; 
+    margin-top: 14vh; 
   }
 
   .aboutUsBild{
     display: flex;
     justify-content: center;
+    height: 65vh;
+    width: 95vw;
   }
 
   .text{
-    font-size: 20px;
+    font-size: 1em;
   }
 
 
@@ -69,20 +71,20 @@
   .rektanglar {
     display: flex;
     justify-content: center;
-    gap: 187px;
-    margin-top: 60px;
+    gap: 9.7vw;
+    margin-top: 14vh;
   }
 
   .rectangle {
     background-color: rgb(240, 236, 236);
-    width: 200px;
-    padding: 35px;
+    width: 240vw;
+    padding: 8vh;
   }
 
   .historia{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 14vh;
   }
 
   .historiatext{
