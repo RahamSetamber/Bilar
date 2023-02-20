@@ -37,58 +37,88 @@
     .sidenav a {font-size: 18px;}
   }
 
-  .fretag{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -8vh;
-  }
-  
-  .rubrik{
-    display: flex;
-    justify-content: center;
-    margin-top: 14vh; 
-  }
+  /* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
 
-  .aboutUsBild{
-    display: flex;
-    justify-content: center;
-    height: 65vh;
-    width: 95vw;
-  }
+/* Header styles */
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+}
 
-  .text{
-    font-size: 1em;
-  }
+nav {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 1rem;
+}
 
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
 
-  .test{
-    display: flex;
-    gap: 187px;
-    
-  }
+nav li {
+	margin: 0 1rem;
+}
 
-  .rektanglar {
-    display: flex;
-    justify-content: center;
-    gap: 9.7vw;
-    margin-top: 14vh;
-  }
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
 
-  .rectangle {
-    background-color: rgb(240, 236, 236);
-    width: 240vw;
-    padding: 8vh;
-  }
+nav a.active,
+nav a:hover {
+	border-bottom: 2px solid #fff;
+}
 
-  .historia{
-    display: flex;
-    justify-content: center;
-    margin-top: 14vh;
-  }
+h1 {
+	margin: 0;
+}
 
-  .historiatext{
-    text-align:center;
-  }
+/* Main content styles */
+main {
+	margin: 2rem;
+}
+
+section {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+h2 {
+	margin-bottom: 1rem;
+}
+
+p {
+	line-height: 1.5;
+	margin-bottom: 1.5rem;
+}
+
+/* Footer styles */
+footer {
+	background-color: #eee;
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.logo{
+  font-size: 1.1rem;
+  color: var(--text-color);
+  font-weight: 400;
+  text-decoration: none;
+}
+.logo:hover{
+  text-decoration: underline;
+}
 
   

@@ -15,13 +15,13 @@
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="index.html">Home</a>
-      <a href="About.html">About</a>
-      <a href="Models.html">Models</a>
-      <a href="Contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="models.html">Models</a>
+      <a href="contact.html">Contact</a>
   
     </div>
 
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Meny</span>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Menu</span>
           
     <script>
       function openNav() {
@@ -33,32 +33,50 @@
     }
     </script>
 
-    <div class="fretag">
-        <h1>FRETAG</h1>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us | FRETAG</title>
+</head>
+<body>
+	<header>
+		<a href="index.html" class="logo">
+          <h1>FRETAG</h1>
+    	</a>
+	</header>
+	
 
-    <div class="supporttext">
-        <h2>Support</h2>
-    </div>
+	<main>
+		<section>
+			<h2>Contact Us</h2>
+			<form action="submit-form.php" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" rows="5" required></textarea>
+				<button type="submit" onclick="window.location.href='https://www.youtube.com/watch?v=xvFZjo5PgG0'">Send Message</button>
 
-    <div class="kontaktuppgifter">
-        <h2>Kontaktuppgifter</h2>
-    </div>
 
-    <div class="rad">
-        <div class="kontaktuppgifterText">
-        <h2>Försäkring</h2>
-        <h3>070-5634-578</h3>
-        <h3>kundservice@gmail.com</h3>
-        </div>
-    <div class="kontaktuppgifterText">
-        <h2>Assistans</h2>
-        <h3>070-5634-578</h3>
-        <h3>kundservice@gmail.com</h3>
-    </div><div class="kontaktuppgifterText">
-        <h2>Försäkring</h2>
-        <h3>070-5634-578</h3>
-        <h3>kundservice@gmail.com</h3>    
-    </div>
+			</form>
+			<p>Alternatively, you can contact us by phone or email:</p>
+			<ul>
+				<li>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+				<li>Email: <a href="mailto:info@examplemotors.com">info@FRETAG.com</a></li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 FRETAG. All rights reserved.</p>
+	</footer>
+
+	    
+
+
 </body>
 </html>

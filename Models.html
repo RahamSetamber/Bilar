@@ -4,166 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FRETAG - Shopping Cart </title>
     <link rel="stylesheet" href="stylesM.css">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="container"></div>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Home</a>
-      <a href="About.html">About</a>
-      <a href="Models.html">Models</a>
-      <a href="Contact.html">Contact</a>
-  
-    </div>
+    <header>
 
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Meny</span>
-          
-    <script>
-      function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-    }
-          
-    function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    }
-    </script>
+        <div class="container"></div>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="models.html">Models</a>
+          <a href="contact.html">Contact</a>
+      
+        </div>
+    
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+              
+        <script>
+          function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+              
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
 
-<div class="fretag">
-    <h1>FRETAG</h1>
-</div>
+        <div class="nav container">
+            <a href="index.html" class="logo">FRETAG</a>
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <!--cart-->
+            <div class="cart">
+                <!--cart close-->
+                <i class='bx bx-x' id="close-cart"></i>
+                <h2 class="cart-title">Your cart</h2>
+                <!--content-->
+                <div class="cart-content">
 
-<div class="modellertext">
-  <h2>Modeller</h2>
-</div>
+                </div>
+                <!--total-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div> 
+                </div> 
+                <!--buy button-->
+                <button type="button" class="btn-buy">Buy Now</button>
+            
+            </div>
+        </div>
 
-<div class="modeller">
-<div class="card">
-  <img src="images/dodge viper.jpeg" alt="audi" style="width:300px">
-  <div class="container">
-    <div class="hejhej">
-      <div class="hejhejdå">
-        <h4><b>Dodge-Viper</b></h4>
-        <p>Pris:1,577 miljoner</p>
-      </div>
-      <button class="button button1">Köp för fan</button> 
-    </div> 
-  </div>
-</div>
-
-<div class="card">
-  <img src="images/dodge viper.jpeg" alt="audi" style="width:300px">
-  <div class="container">
-    <div class="hejhej">
-      <div class="hejhejdå">
-        <h4><b>Dodge-Viper</b></h4>
-        <p>Pris:1,577 miljoner</p>
-      </div>
-      <button class="button button1">Köp för fan</button> 
-    </div> 
-  </div>
-</div>
-
-<div class="card">
-  <img src="images/dodge viper.jpeg" alt="audi" style="width:300px">
-  <div class="container">
-    <div class="hejhej">
-      <div class="hejhejdå">
-        <h4><b>Dodge-Viper</b></h4>
-        <p>Pris:1,577 miljoner</p>
-      </div>
-      <button class="button button1">Köp för fan</button> 
-    </div> 
-  </div>
-</div>
-</div>
-<div class="modeller2">
-  <div class="card">
-  <img src="images/röd bil.jpeg" alt="audi" style="width:300px">
-  <div class="container">
-    <div class="hejhej">
-      <div class="hejhejdå">
-        <h4><b>Alfa-Romeo</b></h4>
-        <p>Pris:1,577 miljoner</p>
-      </div>
-      <button class="button button1">Köp för fan</button> 
-    </div> 
-  </div>
-</div>
-<div class="card">
-  <img src="images/röd bil.jpeg" alt="audi" style="width:300px">
-  <div class="container">
-    <div class="hejhej">
-      <div class="hejhejdå">
-        <h4><b>Alfa-Romeo</b></h4>
-        <p>Pris:1,577 miljoner</p>
-      </div>
-      <button class="button button1">Köp för fan</button> 
-    </div> 
-  </div>
-</div>
-<div class="card">
-  <img src="images/röd bil.jpeg" alt="audi" style="width:300px">
-  <div class="container">
-    <div class="hejhej">
-      <div class="hejhejdå">
-        <h4><b>Alfa-Romeo</b></h4>
-        <p>Pris:1,577 miljoner</p>
-      </div>
-      <button class="button button1">Köp för fan</button> 
-    </div> 
-  </div>
-</div>
-</div>
-
-<div class="modeller3">
-<div class="card">
-  <img src="images/blå audi.jpeg" alt="audi" style="width:300px">
-  <div class="container">
-    <div class="hejhej">
-      <div class="hejhejdå">
-        <h4><b>Audi-R8</b></h4>
-        <p>Pris:1,577 miljoner</p>
-      </div>
-      <button class="button button1">Köp för fan</button> 
-    </div> 
-  </div>
-</div>
-<div class="card">
-  <img src="images/blå audi.jpeg" alt="audi" style="width:300px">
-  <div class="container">
-    <div class="hejhej">
-      <div class="hejhejdå">
-        <h4><b>Audi-R8</b></h4>
-        <p>Pris:1,577 miljoner</p>
-      </div>
-      <button class="button button1">Köp för fan</button> 
-    </div> 
-  </div>
-</div>
-<div class="card">
-  <img src="images/blå audi.jpeg" alt="audi" style="width:300px">
-  <div class="container">
-    <div class="hejhej">
-      <div class="hejhejdå">
-        <h4><b>Audi-R8</b></h4>
-        <p>Pris:1,577 miljoner</p>
-      </div>
-      <button class="button button1">Köp för fan</button> 
-    </div> 
-  </div>
-</div>
-</div>
-
-
-</div>
-
-
-
-
-
-
-
+         
+    </header>
+    <!--Shop-->
+    <section class="shop container">
+        <h2 class="section-title">Models</h2>
+            <!--Box 1-->
+            <div class="shop-content">  
+                <div class="product-box">
+                    <img src="images/röd bil.jpeg" alt="" class="product-img">
+                    <h2 class="product-title">ALFA ROMEO</h2>
+                    <span class="price">$1570000</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            <!--Box 2-->
+                <div class="product-box">
+                    <img src="images/dodge viper.jpeg" alt="" class="product-img">
+                    <h2 class="product-title">NONE DODGEABLE VIPER</h2>
+                    <span class="price">$2000000</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+                <!--Box 3-->
+                <div class="product-box">
+                    <img src="images/dodge viper.jpeg" alt="" class="product-img">
+                    <h2 class="product-title">DODGE VIPER</h2>
+                    <span class="price">$1570000</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+                <!--Box 4-->
+                <div class="product-box">
+                    <img src="images/Vit lamborghini aventador.jpg" alt="" class="product-img">
+                    <h2 class="product-title">Lamborghini</h2>
+                    <span class="price">$3500000</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            <!--Box 5-->
+                <div class="product-box">
+                    <img src="images/ford.jpg" alt="" class="product-img">
+                    <h2 class="product-title">BLUE FORD</h2>
+                    <span class="price">$1000000</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+                <!--Box 6-->
+                <div class="product-box">
+                    <img src="images/nissan.jpg" alt="" class="product-img">
+                    <h2 class="product-title">NISSAN</h2>
+                    <span class="price">$1200000</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+                <!--Box 7-->
+                <div class="product-box">
+                    <img src="images/benz.jpg" alt="" class="product-img">
+                    <h2 class="product-title">BENZ</h2>
+                    <span class="price">$4000000</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+                <!--Box 8-->
+                <div class="product-box">
+                    <img src="images/benz.jpg" alt="" class="product-img">
+                    <h2 class="product-title">SUPER BENZ</h2>
+                    <span class="price">$55000000</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+        </div>
+    </section>
+    <!--link to js-->
+    <script src='js/main.js'></script>
 </body>
 </html>
